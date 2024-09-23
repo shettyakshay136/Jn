@@ -1,0 +1,144 @@
+footer {
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.footer-container {
+  justify-content: space-between;
+  display: flex;
+  padding-top: 60px;
+  border-top-width: 1px;
+  border-top-color: #2F5F48;
+  border-top-style: solid;
+  flex-wrap: wrap;
+}
+
+.footer-title {
+  font-family: 'Semibold';
+  color: #2F5F48;
+  font-size: 30px;
+}
+
+.contact-info {
+  display: flex;
+  gap: 70px;
+}
+
+.contact-text {
+  font-family: 'normal';
+  color: #2F5F48;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.address {
+  font-family: 'normal';
+  color: #2F5F48;
+  font-weight: 400;
+  font-size: 17px;
+}
+.social-icons{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: black;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.stay-connected {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.stay-connected h1 {
+  font-size: 35px;
+  color: #2F5F48;
+  font-family: 'Extralight';
+  font-weight: 700;
+}
+
+/* .email-section {
+  border-bottom: 1px solid #2F5F48;
+} */
+
+.email-section h3 {
+  font-family: 'normal';
+  font-size: 17px;
+  color: #2F5F48;
+}
+
+.email-input {
+  padding: 10px;
+  border-bottom: 1px solid #2F5F48;
+  background-color: #F3F2EC;
+  color: black;
+  outline: none;
+  margin-right: 10px;
+}
+
+.subscribe-btn {
+  background-color: #2F5F48;
+  color: white;
+  border-radius: 40px;
+  padding: 7px 45px;
+  font-family: normal;
+}
+.mail{
+  display: 'flex';
+}
+
+/* button {
+    padding: 10px 20px;
+    background-color: #4b6043;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} */
+
+@media (max-width: 458px) {
+  footer{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+
+  }
+  .contact-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .address{
+    min-width: 300px;
+  }
+  .stay-connected {
+    margin-top: -30px;
+    padding-bottom: 10px;
+  }
+  .stay-connected h1 {
+    font-size: 25px;
+    min-width: 300px;
+
+  }
+  .mail{
+    flex-direction: column;
+  }
+  .email-input {
+    margin-bottom: 20px;
+  }
+  .email-section{
+    margin-top: 20px;
+    width: 100%;
+
+  }
+
+}

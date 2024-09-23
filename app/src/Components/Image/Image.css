@@ -1,0 +1,39 @@
+.Layout{
+    gap: 40px;
+    max-width: 440px;
+    padding: 20px;
+}
+.Dimensions{
+    max-width: 410px;
+    height: auto;
+    overflow: hidden;
+    
+}
+Image{
+    max-width: auto;
+
+}
+.title{
+    padding-top: 40px;
+    color: #2F5F48;
+    font-size: 24px;
+    font-family: 'Semibold';
+}
+.desc{
+    font-size: 16px;
+    color: #2F5F48;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: #2F5F48;
+    border-bottom-width: 1px;
+    border-style: solid;
+
+}
+
+.image-hover {
+    transition: transform 0.8s ease;
+  }
+  
+  .Dimensions:hover .image-hover {
+    transform: scale(1.1);
+  }

@@ -1,0 +1,57 @@
+.Homepage{
+    padding-right: 120px;
+    padding-left: 120px;
+}
+.TextHome{
+    color: #2F5F48;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Semibold', sans-serif;
+}
+.Maintext{
+    padding-top: 64px;
+    gap: 30;
+    color: #2F5F48;
+}
+.Tag{
+    font-size:20px;
+    max-width: 70%;
+    font-weight: 700;
+    font-family: 'Extralight', sans-serif;
+}
+.Tag span{
+    font-family: 'Extralighti', sans-serif;
+}
+@font-face {
+    font-family: 'Extralighti';
+    src: url('../../../fonts/Poppins-ExtraLightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Extralight';
+    src: url('../../../fonts/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Semibold';
+    src: url('../../../fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @media (max-width: 458px) {
+    .Homepage{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .TextHome{
+        font-size: 45px;
+    }
+    .Tag{
+        font-size:16px;
+        max-width: 100%;
+    }
+
+}

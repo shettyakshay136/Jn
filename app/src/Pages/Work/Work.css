@@ -1,0 +1,39 @@
+.Work{
+    padding-top: 150px;
+}
+.Wheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.wtag{
+    color: #2F5F48; 
+    font-family: 'normal', sans-serif;
+    font-size: 20px;
+
+}
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20;
+    padding-top: 50px;
+}
+@font-face {
+    font-family: 'normal';
+    src: url('../../../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+@media (max-width:458px) {
+    .TextHome{
+        font-size: 45px;
+    }
+    .wtag{
+        font-size: 14px;
+        margin-top: -20px;
+    
+    }
+
+}

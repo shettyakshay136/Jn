@@ -1,0 +1,14 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Name{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.Text{
+    color: #2F5F48;
+    margin-top: 10px;
+}
